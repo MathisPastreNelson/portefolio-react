@@ -1,7 +1,9 @@
 function Header() {
-    return (<div>
-        test
-    </div>);
+    return (
+        <header>
+            test wawa
+        </header>
+    );
 }
 
 export default Header;
