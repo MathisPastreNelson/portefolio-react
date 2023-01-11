@@ -5,6 +5,24 @@ body {
   background: linear-gradient(90deg, rgb(9, 0, 15) 0%, rgba(253, 115, 29, 0.2413340336) 90%, rgb(252, 176, 69) 100%);
 }
 
-header {
-  background: rgba(248, 248, 248, 0);
+.header_container {
+  background: rgba(78, 64, 160, 0.493);
+  height: 100px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.header_container {
+  background: rgba(78, 64, 160, 0.493);
+  height: 100px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
 }/*# sourceMappingURL=index.css.map */
