@@ -1,3 +1,10 @@
+body {
+  max-width: 1400px;
+  margin: auto;
+  background: rgb(9, 0, 15);
+  background: linear-gradient(90deg, rgb(9, 0, 15) 0%, rgba(253, 115, 29, 0.2413340336) 90%, rgb(252, 176, 69) 100%);
+}
+
 header {
-  background-color: red;
+  background: rgba(248, 248, 248, 0);
 }/*# sourceMappingURL=index.css.map */
