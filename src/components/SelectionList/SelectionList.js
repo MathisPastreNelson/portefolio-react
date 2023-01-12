@@ -1,8 +1,11 @@
 function SelectionList() {
     return (
-        <header className="header_container">
-            <h1>Selectionnez la catégorie</h1>
-        </header>
+        <nav className="nav_container">
+            <p>Présentation</p>
+            <p>Compétence</p>
+            <p>Portefolio</p>
+            <p>Contact</p>
+        </nav>
     );
 }
 
