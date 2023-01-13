@@ -3,6 +3,7 @@ body {
   margin: auto;
   background: rgb(9, 0, 15);
   background: linear-gradient(90deg, rgb(9, 0, 15) 0%, rgba(253, 115, 29, 0.2413340336) 90%, rgb(252, 176, 69) 100%);
+  padding: 1rem 2rem;
 }
 
 .header_container {
@@ -22,6 +23,61 @@ body {
   margin: 10px 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.present_container {
+  background: rgba(68, 183, 187, 0.493);
+  height: 400px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.portefolio_container {
+  background: rgba(64, 160, 64, 0.493);
+  height: 400px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.skills_container {
+  background: rgba(160, 64, 64, 0.493);
+  height: 400px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.contact_container {
+  background: rgba(153, 67, 67, 0.493);
+  height: 400px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.footer_container {
+  background: rgba(160, 64, 152, 0.493);
+  height: 80px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 20px;
   border: 2px solid rgba(0, 0, 0, 0.397);

@@ -1,8 +1,8 @@
 function Present() {
     return (
-        <header className="header_container">
+        <main className="present_container">
             <h2>Présentation</h2>
-        </header>
+        </main>
     );
 }
 
