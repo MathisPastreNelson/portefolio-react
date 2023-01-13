@@ -6,9 +6,13 @@ body {
   padding: 1rem 2rem;
 }
 
+@media screen and (max-device-width: 640px) {
+  body {
+    padding: 0.2rem 1rem;
+  }
+}
 .header_container {
   background: rgba(78, 64, 160, 0.493);
-  height: 80px;
   margin: 10px 0;
   display: flex;
   justify-content: center;
@@ -36,6 +40,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 .navButton:hover {
@@ -50,6 +55,17 @@ body {
   border-radius: 0 15px 15px 0;
 }
 
+@media screen and (max-device-width: 640px) {
+  .nav_container {
+    display: block;
+  }
+  .leftBorder {
+    border-radius: 15px 15px 0 0;
+  }
+  .rightBorder {
+    border-radius: 0 0 15px 15px;
+  }
+}
 .present_container {
   background: rgba(68, 183, 187, 0.493);
   height: 400px;
@@ -84,7 +100,7 @@ body {
 }
 
 .contact_container {
-  background: rgba(153, 67, 67, 0.493);
+  background: rgba(199, 136, 1, 0.493);
   height: 400px;
   margin: 10px 0;
   display: flex;

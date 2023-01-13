@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .navButton:hover {
@@ -29,4 +30,19 @@
 
 .rightBorder {
     border-radius: 0 15px 15px 0;
+}
+
+@media screen and (max-device-width: 640px) {
+    .nav_container {
+        display: block;
+
+    }
+
+    .leftBorder {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .rightBorder {
+        border-radius: 0 0 15px 15px;
+    }
 }
