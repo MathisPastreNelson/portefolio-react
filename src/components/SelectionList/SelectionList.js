@@ -15,10 +15,10 @@ function SelectionListcomponent(component) {
     }
     return (
         <nav className="nav_container">
-            <button onClick={changeComponent1} >Présentation</button>
-            <button onClick={changeComponent2} >Skills</button>
-            <button onClick={changeComponent3} >Portefolio</button>
-            <button onClick={changeComponent4} >Contact</button>
+            <button className='navButton leftBorder' onClick={changeComponent1} >Présentation</button>
+            <button className='navButton' onClick={changeComponent2} >Skills</button>
+            <button className='navButton' onClick={changeComponent3} >Portefolio</button>
+            <button className='navButton rightBorder' onClick={changeComponent4} >Contact</button>
         </nav>
     );
 }
