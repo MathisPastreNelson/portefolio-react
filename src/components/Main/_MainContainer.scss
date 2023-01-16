@@ -7,20 +7,3 @@
     border-radius: 20px;
     border: 2px solid rgba(0, 0, 0, 0.397);
 }
-
-.fade-in {
-    animation: fadein 0.4s;
-    animation-delay: calc(1s * nth-child(letter));
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-        transform: translateX(1000px) scaleY(1) scaleX(1);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0) scaleY(1) scaleX(1);
-    }
-}
