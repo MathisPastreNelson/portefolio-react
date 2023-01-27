@@ -14,7 +14,27 @@ const Home = () => {
     const [component, setComponent] = useState(1);
 
     return (
-        <div>
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             <Header />
             <SelectionList component={component} setComponent={setComponent} />
             {component === 1 && <Present />}
