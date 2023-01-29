@@ -1,9 +1,9 @@
-function Portefolio() {
+function Article3() {
     return (
         <main className="portefolio_container main_container fade-in">
-            <h2>Portefolio</h2>
+            <h2>Article 3</h2>
         </main>
     );
 }
 
-export default Portefolio;
+export default Article3;

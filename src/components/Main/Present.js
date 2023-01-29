@@ -1,9 +1,9 @@
-function Present() {
+function Article1() {
     return (
         <main className="present_container main_container fade-in">
-            <h2>Présentation</h2>
+            <h2>Article 1</h2>
         </main>
     );
 }
 
-export default Present;
+export default Article1;
