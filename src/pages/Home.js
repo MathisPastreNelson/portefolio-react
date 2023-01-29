@@ -14,7 +14,7 @@ const Home = () => {
     const [component, setComponent] = useState(1);
 
     return (
-        <div class="background">
+        <div className="background">
             <span></span>
             <span></span>
             <span></span>
